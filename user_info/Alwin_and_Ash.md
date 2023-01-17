@@ -1,2 +1,2 @@
 Alwin Lor, git-username: lor00148
-Ash Plasek, git-username: AshTS
+Ash Plasek, she/they, git-username: AshTS
