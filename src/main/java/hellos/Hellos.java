@@ -21,25 +21,32 @@ public class Hellos {
 
     builder.append(alwinSaysHello());
     builder.append(ashSaysHello());
+    builder.append(harrySaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
-
+    builder.append(willSaysHello());
     return builder.toString();
   }
 
-  private String nicSaysHello() {
+
+  private static String nicSaysHello() {
     return "Nic says 'Howdy!'\n";
   }
-
-  private String kkSaysHello() {
-    return "KK says 'Hello!'\n";
+  private static String willSaysHello() {
+    return "Will says 'Howdy!'\n";
+  }
+  private static String harrySaysHello() {
+    return "Harry says 'Howdy!'\n";
+  }
+  private static String kkSaysHello() {
+   return "KK says 'Hello!'\n";
   }
 
-  private String alwinSaysHello() {
+  private static String alwinSaysHello() {
     return "Alwin says 'How are ya!'\n";
   }
 
-  private String ashSaysHello() {
+  private static String ashSaysHello() {
     return "Ash says 'Hello!'\n";
   }
 }
