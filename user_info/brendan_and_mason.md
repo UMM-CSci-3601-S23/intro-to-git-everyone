@@ -1,2 +1,2 @@
-Mason Eischens, git username: mason-eisch
-Brendan Conroy, git username: brendanconroy9
+Mason Eischens, he/him, git username: mason-eisch
+Brendan Conroy, he/him, git username: brendanconroy9
