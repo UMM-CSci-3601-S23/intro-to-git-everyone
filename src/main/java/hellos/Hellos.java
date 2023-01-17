@@ -46,10 +46,10 @@ public class Hellos {
   }
 
   private String alwinSaysHelloAgain() {
-    return "Alwin says 'How are ya!'... again\n";
+    return "Alwin says 'How are ya!... again'\n";
   }
 
   private String ashSaysHelloAgain() {
-    return "Ash says 'Hello!'... again\n";
+    return "Ash says 'Hello!... again'\n";
   }
 }
