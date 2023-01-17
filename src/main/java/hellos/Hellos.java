@@ -56,10 +56,10 @@ public class Hellos {
   }
 
   private String alexSaysHello() {
-    return "Noah says 'Hello!'\n";
+    return "Alex says 'Hello!'\n";
   }
 
   private String gregSaysHello() {
-    return "Jaydon says 'top of the Murnin!'\n";
+    return "Greg says 'top of the Murnin!'\n";
   }
 }
