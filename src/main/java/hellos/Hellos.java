@@ -19,10 +19,10 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
-    builder.append(alwinSaysHello());
     builder.append(alwinSaysHelloAgain());
-    builder.append(ashSaysHello());
+    builder.append(alwinSaysHello());
     builder.append(ashSaysHelloAgain());
+    builder.append(ashSaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
 
@@ -46,10 +46,10 @@ public class Hellos {
   }
 
   private String alwinSaysHelloAgain() {
-    return "Alwin says 'How are ya!... again'\n";
+    return "Alwin says 'How are ya again!'\n";
   }
 
   private String ashSaysHelloAgain() {
-    return "Ash says 'Hello!... again'\n";
+    return "Ash says 'Hello again!'\n";
   }
 }
