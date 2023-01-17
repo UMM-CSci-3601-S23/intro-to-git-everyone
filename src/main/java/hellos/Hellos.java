@@ -1,5 +1,7 @@
 package hellos;
 
+
+
 /**
  * A simple Java program used to demonstrate merge conflicts when
  * multiple people edit the same piece of code.
@@ -19,27 +21,29 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
-    builder.append(alwinSaysHello());
-    builder.append(ashSaysHello());
+    builder.append(brendanSaysHello());
     builder.append(kkSaysHello());
+    builder.append(masonSaysHello());
     builder.append(nicSaysHello());
+
 
     return builder.toString();
   }
 
+  private String masonSaysHello() {
+    return "Mason says 'Suh!'\n";
+  }
+
+  private String brendanSaysHello() {
+    return "Brendan says 'Suhh!'\n";
+  }
+
   private String nicSaysHello() {
-    return "Nic says 'Howdy!'\n";
+    return "Nic says 'Hello!'\n";
   }
 
   private String kkSaysHello() {
     return "KK says 'Hello!'\n";
   }
 
-  private String alwinSaysHello() {
-    return "Alwin says 'How are ya!'\n";
-  }
-
-  private String ashSaysHello() {
-    return "Ash says 'Hello!'\n";
-  }
 }
