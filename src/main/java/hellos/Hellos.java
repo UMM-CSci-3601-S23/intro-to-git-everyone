@@ -53,6 +53,7 @@ public class Hellos {
 
   private String ashSaysHelloAgain() {
     return "Ash says 'Hello again!'\n";
+  }
 
   private String noahSaysHello() {
     return "Noah says 'Hey!'\n";
