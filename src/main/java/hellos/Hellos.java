@@ -23,6 +23,8 @@ public class Hellos {
     builder.append(ashSaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
+    builder.append(ChenfeiSaysHello());
+    builder.append(MattSaysHello());
 
     return builder.toString();
   }
@@ -40,6 +42,14 @@ public class Hellos {
   }
 
   private String ashSaysHello() {
+    return "Ash says 'Hello!'\n";
+  }
+
+  private String ChenfeiSaysHello() {
+    return "Alwin says 'How are ya!'\n";
+  }
+
+  private String MattSaysHello() {
     return "Ash says 'Hello!'\n";
   }
 }
