@@ -24,25 +24,17 @@ public class Hellos {
     builder.append(ashSaysHelloAgain());
     builder.append(ashSaysHello());
     builder.append(brendanSaysHello());
-    builder.append(chenfeiSaysHello());
     builder.append(gregSaysHello());
     builder.append(harrySaysHello());
     builder.append(jaydonSaysHello());
     builder.append(kkSaysHello());
     builder.append(masonSaysHello());
-    builder.append(mattSaysHello());
     builder.append(nicSaysHello());
     builder.append(noahSaysHello());
     builder.append(ryanSaysHello());
     builder.append(willSaysHello());
     return builder.toString();
-    return builder.toString();
   }
-
-
-
-  
-  
 
 
   private static String nicSaysHello() {
@@ -57,33 +49,6 @@ public class Hellos {
   private static String kkSaysHello() {
    return "KK says 'Hello!'\n";
   }
-
-
-  private static String alwinSaysHello() {
-    return "Alwin says 'How are ya!'\n";
-  }
-
-  private static String ashSaysHello() {
-    return "Ash says 'Hello!'\n";
-  }
-
-  private String alwinSaysHelloAgain() {
-    return "Alwin says 'How are ya again!'\n";
-  }
-
-  private String ashSaysHelloAgain() {
-    return "Ash says 'Hello again!'\n";
-  }
-
-  private String noahSaysHello() {
-    return "Noah says 'Hey!'\n";
-  }
-
-  private String jaydonSaysHello() {
-    return "Jaydon says 'yoooooooooooooooooooooooooooooo!'\n";
-  }
-
-
 
   private static String brendanSaysHello() {
     return "Brendan says 'Hello!'\n";
@@ -101,14 +66,6 @@ public class Hellos {
     return "Ash says 'Hello!'\n";
   }
 
-
-  private String chenfeiSaysHello() {
-    return "Chenfei says 'Howdy!'\n";
-  }
-
-  private String mattSaysHello() {
-    return "Matt says 'Hello!'\n";
-}
   private String alwinSaysHelloAgain() {
     return "Alwin says 'How are ya again!'\n";
   }
@@ -131,14 +88,10 @@ public class Hellos {
 
   private String gregSaysHello() {
     return "Greg says 'top of the Murnin!'\n";
-
   }
 
   private String ryanSaysHello() {
     return "Ryan says 'Hi.!'\n";
   }
 
-  private String ryanSaysHello() {
-    return "Ryan says 'Hi.!'\n";
-  }
 }
