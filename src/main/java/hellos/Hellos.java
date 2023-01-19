@@ -23,7 +23,17 @@ public class Hellos {
 
 
 
+
+    
+
+    builder.append(alexSaysHello());
+    builder.append(alwinSaysHelloAgain());
+    builder.append(alwinSaysHello());
+    builder.append(ashSaysHelloAgain());
+    builder.append(ashSaysHello());
     builder.append(brendanSaysHello());
+    builder.append(gregSaysHello());
+
     builder.append(jaydonSaysHello());
     builder.append(kkSaysHello());
     builder.append(masonSaysHello());
@@ -50,12 +60,29 @@ public class Hellos {
     return "KK says 'Hello!'\n";
   }
 
+  private String alwinSaysHelloAgain() {
+    return "Alwin says 'How are ya again!'\n";
+  }
+
+  private String ashSaysHelloAgain() {
+    return "Ash says 'Hello again!'\n";
+  }
+
   private String noahSaysHello() {
     return "Noah says 'Hey!'\n";
   }
 
   private String jaydonSaysHello() {
     return "Jaydon says 'yoooooooooooooooooooooooooooooo!'\n";
+  }
+
+
+  private String alexSaysHello() {
+    return "Alex says 'Hello!'\n";
+  }
+
+  private String gregSaysHello() {
+    return "Greg says 'top of the Murnin!'\n";
   }
 
 }
