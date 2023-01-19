@@ -18,17 +18,6 @@ public class Hellos {
 
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
-
-
-
-    
-   
-
-    return builder.toString();
-  }
-
-
-
     builder.append(alexSaysHello());
     builder.append(alwinSaysHelloAgain());
     builder.append(alwinSaysHello());
@@ -45,7 +34,13 @@ public class Hellos {
     builder.append(ryanSaysHello());
     builder.append(willSaysHello());
     return builder.toString();
+    return builder.toString();
   }
+
+
+
+  
+  
 
 
   private static String nicSaysHello() {
