@@ -21,10 +21,10 @@ public class Hellos {
 
     builder.append(alwinSaysHello());
     builder.append(ashSaysHello());
+    builder.append(chenfeiSaysHello());
     builder.append(kkSaysHello());
+    builder.append(mattSaysHello());
     builder.append(nicSaysHello());
-    builder.append(ChenfeiSaysHello());
-    builder.append(MattSaysHello());
 
     return builder.toString();
   }
@@ -45,11 +45,11 @@ public class Hellos {
     return "Ash says 'Hello!'\n";
   }
 
-  private String ChenfeiSaysHello() {
-    return "Alwin says 'How are ya!'\n";
+  private String chenfeiSaysHello() {
+    return "Chenfei says 'Howdy!'\n";
   }
 
-  private String MattSaysHello() {
-    return "Ash says 'Hello!'\n";
+  private String mattSaysHello() {
+    return "Matt says 'Hello!'\n";
   }
 }
