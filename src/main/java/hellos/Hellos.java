@@ -21,15 +21,14 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
-    
-    builder.append(alwinSaysHello());
-    builder.append(ashSaysHello());
+
+
     builder.append(brendanSaysHello());
     builder.append(jaydonSaysHello());
     builder.append(kkSaysHello());
     builder.append(masonSaysHello());
-    builder.append(noahSaysHello());
     builder.append(nicSaysHello());
+    builder.append(noahSaysHello());
 
 
     return builder.toString();
