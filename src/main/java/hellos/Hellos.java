@@ -18,6 +18,18 @@ public class Hellos {
 
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
+<<<<<<< HEAD
+=======
+
+
+    
+   
+
+    return builder.toString();
+  }
+
+
+>>>>>>> 569b17762e87f5b00586ae6d1a6f1feff049ab19
     builder.append(alexSaysHello());
     builder.append(alwinSaysHelloAgain());
     builder.append(alwinSaysHello());
@@ -50,6 +62,34 @@ public class Hellos {
    return "KK says 'Hello!'\n";
   }
 
+<<<<<<< HEAD
+=======
+  private static String alwinSaysHello() {
+    return "Alwin says 'How are ya!'\n";
+  }
+
+  private static String ashSaysHello() {
+    return "Ash says 'Hello!'\n";
+  }
+
+  private String alwinSaysHelloAgain() {
+    return "Alwin says 'How are ya again!'\n";
+  }
+
+  private String ashSaysHelloAgain() {
+    return "Ash says 'Hello again!'\n";
+  }
+
+  private String noahSaysHello() {
+    return "Noah says 'Hey!'\n";
+  }
+
+  private String jaydonSaysHello() {
+    return "Jaydon says 'yoooooooooooooooooooooooooooooo!'\n";
+  }
+
+
+>>>>>>> 569b17762e87f5b00586ae6d1a6f1feff049ab19
   private static String brendanSaysHello() {
     return "Brendan says 'Hello!'\n";
    }
@@ -88,6 +128,10 @@ public class Hellos {
 
   private String gregSaysHello() {
     return "Greg says 'top of the Murnin!'\n";
+  }
+
+  private String ryanSaysHello() {
+    return "Ryan says 'Hi.!'\n";
   }
 
   private String ryanSaysHello() {
