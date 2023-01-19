@@ -65,7 +65,7 @@ public class Hellos {
 
   private String mattSaysHello() {
     return "Matt says 'Hello!'\n";
-
+}
   private String alwinSaysHelloAgain() {
     return "Alwin says 'How are ya again!'\n";
   }
