@@ -18,8 +18,7 @@ public class Hellos {
 
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
-<<<<<<< HEAD
-=======
+
 
 
     
@@ -29,7 +28,7 @@ public class Hellos {
   }
 
 
->>>>>>> 569b17762e87f5b00586ae6d1a6f1feff049ab19
+
     builder.append(alexSaysHello());
     builder.append(alwinSaysHelloAgain());
     builder.append(alwinSaysHello());
@@ -62,8 +61,7 @@ public class Hellos {
    return "KK says 'Hello!'\n";
   }
 
-<<<<<<< HEAD
-=======
+
   private static String alwinSaysHello() {
     return "Alwin says 'How are ya!'\n";
   }
@@ -89,7 +87,7 @@ public class Hellos {
   }
 
 
->>>>>>> 569b17762e87f5b00586ae6d1a6f1feff049ab19
+
   private static String brendanSaysHello() {
     return "Brendan says 'Hello!'\n";
    }
