@@ -40,6 +40,7 @@ public class Hellos {
     builder.append(masonSaysHello());
     builder.append(nicSaysHello());
     builder.append(noahSaysHello());
+    builder.append(ryanSaysHello());
     builder.append(willSaysHello());
     return builder.toString();
   }
@@ -89,5 +90,9 @@ public class Hellos {
 
   private static String masonSaysHello() {
     return "Mason says 'Howdy!'\n";
+  }
+
+  private String ryanSaysHello() {
+    return "Ryan says 'Hi.!'\n";
   }
 }
