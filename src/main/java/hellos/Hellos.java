@@ -19,12 +19,18 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
+    builder.append(alexSaysHello());
     builder.append(alwinSaysHello());
     builder.append(ashSaysHello());
+    builder.append(gregSaysHello());
     builder.append(harrySaysHello());
+    builder.append(jaydonSaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
     builder.append(willSaysHello());
+    builder.append(nicSaysHello());
+    builder.append(noahSaysHello());
+    
     return builder.toString();
   }
 
@@ -48,5 +54,21 @@ public class Hellos {
 
   private static String ashSaysHello() {
     return "Ash says 'Hello!'\n";
+  }
+
+  private String noahSaysHello() {
+    return "Noah says 'Hey!'\n";
+  }
+
+  private String jaydonSaysHello() {
+    return "Jaydon says 'yoooooooooooooooooooooooooooooo!'\n";
+  }
+
+  private String alexSaysHello() {
+    return "Alex says 'Hello!'\n";
+  }
+
+  private String gregSaysHello() {
+    return "Greg says 'top of the Murnin!'\n";
   }
 }
